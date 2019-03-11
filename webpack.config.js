@@ -46,7 +46,6 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
     watchContentBase: true,
-    // publicPath: "/dist/",
     historyApiFallback: true,
   },
   plugins: [
